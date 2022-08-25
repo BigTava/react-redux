@@ -1,4 +1,4 @@
-# React App
+# React Redux
 
 **Tutorial:** Building Modern Projects with React
 
