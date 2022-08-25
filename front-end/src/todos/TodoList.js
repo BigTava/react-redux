@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import NewTodoForm from "./NewTodoForm";
 import TodoListItem from "./TodoListItem";
 import { markTodoAsCompleted, removeTodo } from "./actions";
+import { displayAlert } from "./thunks";
 import "./TodoList.css";
 
 const TodoList = ({ todos = [], onCompletedPressed, onRemovePressed }) => (
