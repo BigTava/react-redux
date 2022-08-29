@@ -10,6 +10,7 @@ export const getTodosLoading = (state) => state.todos.isLoading;
   only changes when the return value of the selectors that we 
   pass as arguments changes.
 */
+
 export const getIncompleteTodos = createSelector(getTodos, (todos) =>
   todos.filter((todo) => !todo.isCompleted)
 );
